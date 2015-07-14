@@ -1,0 +1,20 @@
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\AndyPopkin.CRMBulkWorkflowTool.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\AndyPopkin.CRMBulkWorkflowTool.pdb
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\McTools.Xrm.Connection.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\XrmToolBox.exe
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\Microsoft.Xrm.Client.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\McTools.Xrm.Connection.WinForms.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\obj\Debug\XrmToolBox - CRM Bulk Workflow Tool.csprojResolveAssemblyReference.cache
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\obj\Debug\CRMBulkWorkflowTool.Properties.Resources.resources
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\obj\Debug\XrmToolBox___CRM_Bulk_Workflow_Tool.MainControl.resources
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\obj\Debug\XrmToolBox - CRM Bulk Workflow Tool.csproj.GenerateResource.Cache
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\obj\Debug\AndyPopkin.CRMBulkWorkflowTool.dll
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\obj\Debug\AndyPopkin.CRMBulkWorkflowTool.pdb
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\McTools.Xrm.Connection.pdb
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\XrmToolBox.pdb
+C:\Users\Andy\SkyDrive\Zero2Ten\!!\XrmToolBox - CRM Bulk Workflow Tool\XrmToolBox - CRM Bulk Workflow Tool\bin\Debug\McTools.Xrm.Connection.WinForms.pdb
