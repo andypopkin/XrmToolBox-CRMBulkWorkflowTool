@@ -36,22 +36,23 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>andyp.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>bulkworkflow.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="McTools.Xrm.Connection, Version=1.0.3315.606, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\src\XrmToolBox-master\XrmToolBox\bin\Debug\McTools.Xrm.Connection.dll</HintPath>
+      <HintPath>..\..\XrmToolBox\XrmToolBox\bin\Debug\McTools.Xrm.Connection.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\CRM 2015 SDK\Bin\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+      <HintPath>..\..\XrmToolBox\XrmToolBox\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Xrm.Sdk, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\CRM 2015 SDK\Bin\Microsoft.Xrm.Sdk.dll</HintPath>
+      <HintPath>..\..\XrmToolBox\XrmToolBox\bin\Debug\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
@@ -62,9 +63,12 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="XrmToolBox, Version=1.2015.1.19, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="XrmToolBox, Version=1.2015.3.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\src\XrmToolBox-master\XrmToolBox\bin\Debug\XrmToolBox.exe</HintPath>
+      <HintPath>..\..\XrmToolBox\XrmToolBox\bin\Debug\XrmToolBox.exe</HintPath>
+    </Reference>
+    <Reference Include="XrmToolBox.Extensibility">
+      <HintPath>..\..\XrmToolBox\XrmToolBox\bin\Debug\XrmToolBox.Extensibility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +96,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="andyp.snk" />
+    <None Include="bulkworkflow.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AP Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

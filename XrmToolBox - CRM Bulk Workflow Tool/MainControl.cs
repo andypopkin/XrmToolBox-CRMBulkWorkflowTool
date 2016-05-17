@@ -10,6 +10,7 @@ using Microsoft.Xrm.Sdk.Messages;
 using Microsoft.Xrm.Sdk.Query;
 using System;
 using System.ComponentModel;
+using System.ComponentModel.Composition;
 using System.Drawing;
 using System.IO;
 using System.Text;
@@ -17,18 +18,17 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
 using XrmToolBox;
-using XrmToolBox.Attributes;
+using XrmToolBox.Extensibility;
+using XrmToolBox.Extensibility.Interfaces;
 
-// If empty strings are left, default values are used
-[assembly: BackgroundColor("")]
-[assembly: PrimaryFontColor("")]
-[assembly: SecondaryFontColor("")]
-[assembly: SmallImageBase64("")]
-[assembly: BigImageBase64("")]
+
 
 namespace XrmToolBox___CRM_Bulk_Workflow_Tool
 {
-    public partial class MainControl : UserControl, IMsCrmToolsPluginUserControl
+    
+    
+    
+    public partial class MainControl : UserControl, IXrmToolBoxPluginControl
     {
         #region Variables
 
@@ -909,5 +909,22 @@ namespace XrmToolBox___CRM_Bulk_Workflow_Tool
         }
 
 
+    }
+
+    [Export(typeof(IXrmToolBoxPlugin)),
+   ExportMetadata("Name", "Bulk Workflow Tool"),
+   ExportMetadata("Description", "Execute workflows in batches based on views or FetchXML"),
+   ExportMetadata("SmallImageBase64", null), // null for "no logo" image or base64 image content 
+   ExportMetadata("BigImageBase64", null), // null for "no logo" image or base64 image content 
+   ExportMetadata("BackgroundColor", "Lavender"), // Use a HTML color name
+   ExportMetadata("PrimaryFontColor", "#000000"), // Or an hexadecimal code
+   ExportMetadata("SecondaryFontColor", "DarkGray")]
+
+    public class Plugin : PluginBase
+    {
+        public override IXrmToolBoxPluginControl GetControl()
+        {
+            return new MainControl();
+        }
     }
 }
